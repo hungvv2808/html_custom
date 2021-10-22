@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .top {
+            margin-top: 10vh;
+        }
+        
+        .delete {
+            margin-left: 95%;
+            position: relative;
+            top: 0;
+        }
+        
+        .info {
+            margin-right: 90%;
+            position: absolute;
+            width: 80%;
+        }
+        
+        .list-complete {
+            color: white;
+            background-color: #0db50d9e;
+        }
+        
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container top">
+        <div class="col-lg-12">
+            <div class="col-lg-9">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="todo">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <button type="button" class="btn btn-default btn-success" id="btnAdd" onclick="getAction();">
+                    <i class="glyphicon glyphicon-plus-sign"></i>
+                </button>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <ul id="data" class="list-group none">
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function getAction() {
+            var data = document.getElementById('todo');
+            var data_val = data.value;
+            var data_list = document.getElementById('data');
+            let id = 'data_' + data_val.replace(' ', '_').toLowerCase()
+            html_add = "<li class='list-group-item' id='" + id + "' onclick='completeAction(" + '"' + id + '");' + "'><span class='info'>" + data_val + "</span><button type='button' class='btn btn-default btn-danger delete " + id + "' onclick='deleteAction(" + '"' + id + '"' + ");'><i class='glyphicon glyphicon-remove-sign'></i></button></li>"
+            data_list.innerHTML += html_add;
+            data_list.classList.remove('none');
+            document.getElementById('todo').value = '';
+        }
+
+        function completeAction(e) {
+            var data_complete = document.getElementById(e);
+            data_complete.classList.add('list-complete');
+            title = data_complete.childNodes[0].textContent;
+            data_complete.childNodes[0].textContent = title + ' (completed)';
+        }
+
+        function deleteAction(e) {
+            var data_del = document.getElementById(e);
+            data_del.parentNode.removeChild(data_del);
+        }
+    </script>
+</body>
+
+</html>

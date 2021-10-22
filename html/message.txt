@@ -1,0 +1,227 @@
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;"
+        width="100%">
+        <tbody>
+            <tr>
+                <td align="center" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;" valign="top">
+
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" data-template-container="" id="templateHeader" style="background:#383732 none no-repeat 50% 50%/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #383732;background-image: none;background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 16px;padding-bottom: 16px;"
+                                    valign="top">
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;"
+                                        width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td class="headerContainer" style="background:transparent none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;"
+                                                    valign="top">
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                        <tbody class="mcnImageBlockOuter">
+                                                            <tr>
+                                                                <td class="mcnImageBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="mcnImageContent" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><img align="center" alt="" src="https://litextension.com/wp-content/uploads/litextension-mail.png" width="250" style="max-width: 250px; padding-bottom: 0px; border: 0px; height: auto; outline: none; text-decoration: none;"
+                                                                                        class="mcnImage fr-fic fr-dii"></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" data-template-container="" id="templateBody" style="background:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 27px;padding-bottom: 54px;"
+                                    valign="top">
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;"
+                                        width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td class="bodyContainer" style="background:#transparent none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;"
+                                                    valign="top">
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                        <tbody class="mcnTextBlockOuter">
+                                                            <tr>
+                                                                <td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"
+                                                                        width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #808080;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"
+                                                                                    valign="top">
+
+                                                                                    <h1 style="display: block;margin: 0;padding: 0;color: #222222;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: center;">Recent Experience With LitExtension</h1>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                        <tbody class="mcnTextBlockOuter">
+                                                            <tr>
+                                                                <td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"
+                                                                        width="100%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="mcnTextContent" style="padding: 0px 18px 9px;color: #434343;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"
+                                                                                    valign="top">
+
+                                                                                    <p>My name is Derek, Customer Care Manager at LitExtension.</p>
+
+                                                                                    <p>
+                                                                                        <br>
+                                                                                    </p>
+
+                                                                                    <p>We know you&rsquo;re busy running a business and emails might get buried, so we just wanted to send you a gentle email to give you an opportunity to share your feedback
+                                                                                        on your recent experience with LitExtension.</p>
+
+                                                                                    <p>
+                                                                                        <br>
+                                                                                    </p>
+
+                                                                                    <p>We would greatly appreciate your feedback as it helps us make the support experience better.</p>
+
+                                                                                    <p>
+                                                                                        <br>
+                                                                                    </p>
+
+                                                                                    <p>Please let us know how we did and would you be willing to leave us a review if everything works out ?</p>
+
+                                                                                    <p>
+                                                                                        <br>
+                                                                                    </p>
+
+                                                                                    <p style="color: #434343;margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">Should you have any questions, please reply to this email for further assistance. &nbsp;</p>
+
+                                                                                    <p style="color: #434343;margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">Thanks again for putting your trust in LitExtension. We hope to have the pleasure of serving you in the future.
+                                                                                        <br>
+                                                                                        <br>Sincerely,
+                                                                                        <br>
+                                                                                        <br><strong>LitExtension Team</strong></p>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" data-template-container="" id="templateFooter" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: transparent;background: #1e87f0 !important; background-image: linear-gradient( 90deg, #e4453e 0, #3b7bfb 100%) !important;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 45px;padding-bottom: 63px;"
+                                    valign="top">
+
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" id="footer-flex" style="width: 100%;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="top">
+
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="footerContainer" style="background:transparent none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;"
+                                                                    valign="top">
+
+                                                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnFollowBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                                        <tbody class="mcnFollowBlockOuter">
+                                                                            <tr>
+                                                                                <td align="center" class="mcnFollowBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+                                                                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td align="center" style="padding-left: 9px;padding-right: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+                                                                                                    <table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContent" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td align="center" style="padding-top: 9px;padding-right: 9px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+                                                                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;width: 100%;">
+                                                                                                                        <tbody>
+                                                                                                                            <tr>
+                                                                                                                                <td align="center" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+
+                                                                                                                                    <div class="" style="display: flex;">
+                                                                                                                                        <div style="width: 25%;">
+
+                                                                                                                                            <a href="https://www.trustpilot.com/review/litextension.com" target="_blank"><img width="160" height="73" class="el-image" alt="trustpilot review litextension" data-src="/wp-content/uploads/2021/09/trustpilot-review.svg"
+                                                                                                                                                    uk-img="" src="http://45.56.66.224/customers/css/trustpilot-review.png"></a>
+                                                                                                                                        </div>
+                                                                                                                                        <div style="width: 25%;">
+
+                                                                                                                                            <a href="https://www.serchen.com/company/litextension/" target="_blank"><img width="160" height="73" class="el-image" alt="serchen litextension review" data-src="/wp-content/uploads/2021/09/serchen-30.svg"
+                                                                                                                                                    uk-img="" src="http://45.56.66.224/customers/css/serchen-30.png"></a>
+
+                                                                                                                                        </div>
+                                                                                                                                        <div style="width: 25%;">
+
+                                                                                                                                            <a href="https://www.google.com/search?q=LitExtension&amp;sxsrf=AOaemvLRIRiBYeP5s7ajUxjxag4ZB9ERRA%3A1632535485715&amp;source=hp&amp;ei=vYNOYfz1KITV-Qbkgpz4Dg&amp;iflsig=ALs-wAMAAAAAYU6RzXcJb7-Y54s2klW5appkHliZPKlK&amp;oq=litextension&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgoIABCABBCHAhAUMgUIABCABDIFCAAQgAQ6CgguEMcBENEDEEM6DgguEIAEELEDEMcBENEDOgsIABCABBCxAxCDAToFCAAQsQM6CwguEIAEEMcBENEDOgQIABBDOg0ILhCxAxDHARDRAxBDOgQILhBDOgoILhCxAxCDARBDOgsILhCxAxCDARCRAjoHCAAQsQMQQzoFCAAQkQI6CAgAEIAEELEDOgUILhDLAToHCAAQChDLAToHCAAQgAQQClCZFFiqMGCYNGgAcAB4AIABhgGIAZwKkgEEMi4xMJgBAKABAQ&amp;sclient=gws-wiz&amp;ved=2ahUKEwjk_pHRhJnzAhUGB94KHT7pAWcQrMcEegQIBBAE&amp;uact=5&amp;ludocid=9321361700532578676&amp;lsig=AB86z5WiuTYbSeYmuTOGKBVuuReU#lrd=0x3135ab7bf0d6b4c1:0x815c2114772ce974,1,"
+                                                                                                                                                target="_blank"><img width="160" height="73" class="el-image" alt="google review litextension" data-src="/wp-content/uploads/2021/09/google-review-1.svg"
+                                                                                                                                                    uk-img="" src="http://45.56.66.224/customers/css/google-review-1.png"></a>
+                                                                                                                                        </div>
+                                                                                                                                        <div style="width: 25%;">
+
+                                                                                                                                            <a href="https://apps.shopify.com/litextension-shopify-migration-app" target="_blank"><img width="160" height="73" class="el-image" alt="shopify app store review litextension" data-src="/wp-content/uploads/2021/09/shopify-app-store-review-small-2.svg"
+                                                                                                                                                    uk-img="" src="http://45.56.66.224/customers/css/shopify-app-store-review-small-2.png"></a>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    </div>
+
+                                                                                                                                    </div>
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>

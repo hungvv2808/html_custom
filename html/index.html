@@ -1,0 +1,221 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Chart</title>
+
+    <style>
+         :root {
+            --value-tooltip-border: #334D5C;
+            --value-tooltip-border-2: #45B29D;
+            --value-tooltip-border-3: #EFC94C;
+            --value-tooltip-border-4: #E27A3F;
+            --value-tooltip-border-5: #DF5A49;
+            --value-tooltip-border-6: #962D3E;
+        }
+        
+        body {
+            background-color: #272b34;
+            font-family: 'Khula', sans-serif;
+            font-weight: 300;
+            color: white;
+            line-height: 1em;
+            padding: 2em;
+        }
+        
+        figure {
+            margin: 0 auto;
+            max-width: 1100px;
+            position: relative;
+        }
+        
+        .graphic {
+            padding-left: 30px;
+        }
+        
+        .graphic-row {
+            margin-bottom: 1.5em;
+        }
+        
+        @keyframes expand {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            @keyframes expand {
+                from {
+                    width: 0%;
+                }
+                to {
+                    width: calc(100% - 75px);
+                }
+            }
+        }
+        
+        .graphic-row-chart {
+            overflow: hidden;
+            width: 0%;
+            animation: expand 1.5s ease forwards;
+        }
+        
+        .graphic-row+.graphic-row .graphic-row-chart {
+            animation-delay: .2s;
+        }
+        
+        .graphic-row+.graphic-row+.graphic-row .graphic-row-chart {
+            animation-delay: .4s;
+        }
+        
+        .graphic-row-chart-block {
+            display: block;
+            height: 30px;
+            color: #fff;
+            font-size: .75em;
+            float: left;
+            background-color: var(--value-tooltip-border);
+            position: relative;
+            overflow: hidden;
+            opacity: 1;
+            transition: opacity, .3s ease;
+            cursor: pointer;
+        }
+        
+        .graphic-row-chart-block:nth-of-type(1) {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        
+        .graphic-row-chart-block:nth-last-of-type(1) {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        
+        .graphic-row-chart-block:nth-of-type(2) {
+            background-color: var(--value-tooltip-border-2);
+        }
+        
+        .graphic-row-chart-block:nth-of-type(3) {
+            background-color: var(--value-tooltip-border-3);
+        }
+        
+        .graphic-row-chart-block:nth-of-type(4) {
+            background-color: var(--value-tooltip-border-4);
+        }
+        
+        .graphic-row-chart-block:nth-of-type(5) {
+            background-color: var(--value-tooltip-border-5);
+        }
+        
+        .graphic-row-chart-block:nth-of-type(6) {
+            background-color: var(--value-tooltip-border-6);
+        }
+        
+        .graphic-row-chart-block__value {
+            display: block;
+            line-height: 1em;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        
+        @media screen and (min-width: 768px) {
+            .graphic-row-chart-block {
+                font-size: 1em;
+            }
+        }
+        
+        .graphic-row-chart-block__value-tooltip {
+            visibility: hidden;
+            background-color: inherit;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 1rem 0.5rem;
+            position: fixed;
+            z-index: 1;
+            width: inherit;
+            max-width: 100px;
+        }
+        
+        .graphic-row-chart-block:hover .graphic-row-chart-block__value-tooltip {
+            visibility: visible;
+            transition: .2s all;
+            transition-delay: .2s;
+        }
+        
+        .graphic-row-chart-block .graphic-row-chart-block__value-tooltip::after {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent var(--value-tooltip-border) transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <figure>
+        <div class="graphic">
+            <div class="graphic-row">
+                <div class="graphic-row-chart">
+                    <div class="graphic-row-chart-block">
+                        <span class="graphic-row-chart-block__value">57%</span>
+                        <span class="graphic-row-chart-block__value-tooltip">57%</span>
+                    </div>
+                    <div class="graphic-row-chart-block">
+                        <span class="graphic-row-chart-block__value">13%</span>
+                        <span class="graphic-row-chart-block__value-tooltip">13%</span>
+                    </div>
+                    <div class="graphic-row-chart-block">
+                        <span class="graphic-row-chart-block__value">8%</span>
+                        <span class="graphic-row-chart-block__value-tooltip">8%</span>
+                    </div>
+                    <div class="graphic-row-chart-block">
+                        <span class="graphic-row-chart-block__value">2%</span>
+                        <span class="graphic-row-chart-block__value-tooltip">2%</span>
+                    </div>
+                    <div class="graphic-row-chart-block">
+                        <span class="graphic-row-chart-block__value">17%</span>
+                        <span class="graphic-row-chart-block__value-tooltip">17%</span>
+                    </div>
+                    <div class="graphic-row-chart-block">
+                        <span class="graphic-row-chart-block__value">3%</span>
+                        <span class="graphic-row-chart-block__value-tooltip">3%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+
+    <script>
+        let values = document.querySelectorAll('.graphic-row-chart-block__value');
+        for (value of values) {
+            var text = value.textContent;
+            value.parentNode.style.width = text;
+        }
+
+        var index = 0;
+        const borders = ['#334D5C', '#45B29D', '#EFC94C', '#E27A3F', '#DF5A49', '#962D3E'];
+        var heightGraphic = document.querySelector('.graphic').offsetHeight;
+        var heightTooltip = document.querySelector('.graphic-row-chart-block__value-tooltip').offsetHeight;
+        let tooltip = document.querySelectorAll('.graphic-row-chart-block__value-tooltip');
+        for (tool of tooltip) {
+            tool.style.top = heightGraphic + ((heightTooltip - heightGraphic) < 20 ? 50 : 15) + 'px';
+            tool.style.setProperty('--value-tooltip-border', borders[index]);
+            index++;
+        }
+    </script>
+</body>
+
+</html>
