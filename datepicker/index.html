@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RangePicker</title>
+    <meta name="description" content="">
+    <style type="text/css">
+        .selectMonths {
+            float: left;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .selectMonths>i {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            opacity: 0.35;
+            font-style: normal;
+            font-size: 18px;
+            transition: 0.2s;
+            pointer-events: none;
+        }
+        
+        .selectMonths>input {
+            text-transform: capitalize;
+            padding-left: 10px;
+            cursor: default;
+            cursor: pointer;
+        }
+        
+        .selectMonths:hover>i {
+            opacity: .7;
+        }
+    </style>
+    <link rel="stylesheet" href="picker.css">
+</head>
+
+<body>
+    <div class='selectMonths'>
+        <input type='text' placeholder='Date of inquery' value='' readonly />
+    </div>
+
+    <!-- scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="tether.min.js"></script>
+    <script src="datePicker.js"></script>
+    <script>
+        let now = new Date();
+        let year = now.getYear() + 1900;
+        let month = now.getMonth();
+        let space = 5;
+
+        $('.selectMonths:first input')
+            .rangePicker({
+                minDate: [month, year - space],
+                maxDate: [month, year + space],
+                setDate: [
+                    [month, year],
+                    [month, year]
+                ],
+                RTL: true
+            })
+            // subscribe to the "done" event after user had selected a date
+            .on('datePicker.done', function(e, result) {
+                if (result instanceof Array)
+                    console.log(new Date(result[0][1], result[0][0] - 1), new Date(result[1][1], result[1][0] - 1));
+                else
+                    console.log(result);
+            });
+
+        // update settings
+        $('.selectMonths:last input').rangePicker({
+            setDate: [
+                [month, year],
+                [month, year]
+            ],
+            closeOnSelect: false
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            padding: 1rem;
+        }
+        
+        p {
+            border: 1px solid green;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .day {
+            color: black;
+        }
+        
+        .week {
+            color: yellowgreen;
+        }
+        
+        .month {
+            color: red;
+        }
+        
+        .block {
+            display: block;
+        }
+        
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" class="btn-day">Day</a>
+    <a href="#" class="btn-week">Week</a>
+    <a href="#" class="btn-month">Month</a>
+
+    <p class="day">print day</p>
+    <p class="week">print week</p>
+    <p class="month">print month</p>
+
+    <script>
+        var btnDay = document.querySelector('.btn-day');
+        var btnWeek = document.querySelector('.btn-week');
+        var btnMonth = document.querySelector('.btn-month');
+
+        var day = document.querySelector('.day');
+        var week = document.querySelector('.week');
+        var month = document.querySelector('.month');
+
+        window.onload = function() {
+            day.classList.add('block');
+            week.classList.add('none');
+            month.classList.add('none');
+        };
+
+        btnDay.addEventListener('click', function() {
+            day.classList.remove('none');
+            day.classList.add('block');
+            week.classList.remove('block');
+            week.classList.add('none');
+            month.classList.remove('block');
+            month.classList.add('none');
+        });
+
+        btnWeek.addEventListener('click', function() {
+            day.classList.remove('block');
+            day.classList.add('none');
+            week.classList.remove('none');
+            week.classList.add('block');
+            month.classList.remove('block');
+            month.classList.add('none');
+        });
+
+        btnMonth.addEventListener('click', function() {
+            day.classList.remove('block');
+            day.classList.add('none');
+            week.classList.remove('block');
+            week.classList.add('none');
+            month.classList.remove('none');
+            month.classList.add('block');
+        });
+    </script>
+</body>
+
+</html>
